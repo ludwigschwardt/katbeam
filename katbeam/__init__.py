@@ -1,5 +1,5 @@
 ################################################################################
-# Copyright (c) 2009-2020, National Research Foundation (Square Kilometre Array)
+# Copyright (c) 2020, National Research Foundation (SARAO)
 #
 # Licensed under the BSD 3-Clause License (the "License"); you may not use
 # this file except in compliance with the License. You may obtain a copy
@@ -14,7 +14,7 @@
 # limitations under the License.
 ################################################################################
 
-from .primarybeam import JimBeam
+from .jimbeam import JimBeam   # noqa: F401
 
 # BEGIN VERSION CHECK
 # Get package version when locally imported from repo or via -e develop install
